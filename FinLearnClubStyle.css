@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.Navigation{
+    display: flex;flex-wrap: wrap;justify-content: space-around;
+}
+.nav_bar{
+    display: flex;flex-wrap: wrap;flex: 100%;justify-content: center;padding: 20px;background-color: #ffffff;
+}
+.nav_bar_img{display: flex;flex-wrap: wrap;
+
+}
+.nav_input{display: flex;flex-wrap: wrap;
+    justify-content: start;
+    flex: 10%;height: 35px;
+    padding: 25px;
+}
+.nav_link{display: flex;flex-wrap: wrap;color: black;justify-content: center;
+
+}
+.link{
+    display: flex;justify-content: space-between;padding: 10px;
+}
+.nav_link a{
+    text-decoration: none;text-align: center;justify-content: center;padding-top: 15px;font-size: 20px;color: black;flex-wrap: wrap;}
+
+.nav_link a:hover{
+    background-color: black;color: white;
+}
+.container_image{ display: flex;
+}
+.course_title{display: flex;flex-wrap: wrap;
+            background-color: #012b95; color: #fff;
+}
+.col3_course_title{
+    display: flex;flex: 25%;height: 100px;font-size: 20px;padding-top: 30px;
+
+}
+.investing{
+    display: flex;flex-wrap: wrap;justify-content: center;flex-direction: column;padding-top: 20px;
+}
+.investingHead div{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.investingHead a{text-align: center;
+    color:black;float: right;width: 150px;text-decoration: none;padding-top: 5px;
+}
+.investingFoot{display: flex;flex-wrap: wrap;justify-content: center;
+
+}
+.investingFoot img{
+    height: auto;width:100%;padding: 1%;
+}
+.investingFootImages{
+    flex: 25%;
+    box-shadow: 0 4px 7px 0 rgba(255, 255, 255, 0.6);
+    flex-direction: column;
+    display: flex;
+}
+.mutualfunds{
+    display: flex;flex-wrap: wrap;justify-content: center;flex-direction: column;padding-top: 20px;
+}
+.mutualfundsHead div{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+.mutualfundsFoot{
+    display: flex;flex-direction: row;
+}
+.mutualfundsFoot img{
+    height: auto;padding: 1%;width: 100%;
+}
+.mutualfundsFootImages{display: flex;flex: 25%;
+    box-shadow: 0 4px 7px 0 rgba(255, 255, 255, 0.6);
+    flex-direction: column;
+    
+}
+.div1{
+    display: flex;flex: 50%;
+}
+.div2{
+    display: flex;flex: 50%;
+}
+.stockmarket{
+    display: flex;flex-wrap: wrap;justify-content: center;flex-direction: column;padding-top: 20px;
+}
+.stockmarketHead div{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+.stockmarketFoot{
+    display: flex;flex-direction: row;
+}
+.div11{
+    display: flex;flex: 75%;
+}
+.div22{
+    display: flex;flex: 25%;
+}
+.stockmarketFootImages{display: flex;flex: 33.33%;
+    box-shadow: 0 4px 7px 0 rgba(255, 255, 255, 0.6);
+    flex-direction: column;
+
+}
+.stockmarketFoot img{
+    height: auto;padding: 1%;width: 100%;
+}
+.ourPlatforms{
+    display: flex;flex-wrap: wrap;flex: 100%;justify-content: space-around;
+}
+.headOurPlatforms{
+    display: flex;flex: 10%;justify-content: center;padding: 5%;
+}
+.footOurPlatforms{
+    display: flex;flex-wrap: wrap;flex: 90%;justify-content: center;
+}
+.col4OurPlatforms{
+    display: flex;flex-wrap: wrap;padding-top: 5%;
+}
+.col4OurPlatformsText h1,h5{
+    padding-top: 20px;
+}
+.col4OurPlatformsText{
+    display: flex;flex-wrap: wrap;flex-direction: column;
+}
+.benefits{
+    display: flex;flex-wrap: wrap;flex: 100%;justify-content: space-around;
+}
+.headBenefits{
+    display: flex;flex: 10%;justify-content: center;padding-top: 4%;
+}
+.footBenefits{
+    display: flex;flex-wrap: wrap;flex: 90%;justify-content: center;padding: 1%;
+}
+.col4Benefits{
+    display: flex;flex-wrap: wrap;padding-top: 5%;
+}
+.col4BenefitsText h1,h5{
+    padding-top: 20px;
+}
+.col4BenefitsText{
+    display: flex;flex-wrap: wrap;flex-direction: column;
+}
+.download{    background: #fff;
+    display: flex;flex-wrap: wrap;flex-direction: row;justify-content: center;padding-top: 5%;
+}
+.col6Download{
+    display: flex;flex: 50%;flex-wrap: wrap;
+}
+.col7Download{
+    display: flex;flex: 50%;flex-wrap: wrap;
+}
+.col6DownloadText{
+    display: flex;flex-wrap: wrap;justify-content: center;flex-direction: column;
+}
+.footer{
+    background-color: black;color: blanchedalmond;
+}
